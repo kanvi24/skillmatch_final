@@ -10,15 +10,28 @@ if not firebase_admin._apps:
         # Search in backend root directory
         base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         service_account_path = os.path.join(base_dir, "firebase-service-account.json")
-        if os.path.exists(service_account_path):
+        
+        firebase_json = os.environ.get("FIREBASE_SERVICE_ACCOUNT_JSON")
+        project_id = os.environ.get("FIREBASE_PROJECT_ID") or os.environ.get("GOOGLE_CLOUD_PROJECT")
+        
+        if firebase_json:
+            import json
+            service_account_info = json.loads(firebase_json)
+            cred = credentials.Certificate(service_account_info)
+            firebase_admin.initialize_app(cred)
+        elif os.path.exists(service_account_path):
             cred = credentials.Certificate(service_account_path)
             firebase_admin.initialize_app(cred)
+        elif project_id:
+            firebase_admin.initialize_app(options={
+                "projectId": project_id
+            })
         else:
             # Fallback to default credentials/env variables
             firebase_admin.initialize_app()
     except Exception as e:
         import warnings
-        warnings.warn(f"Firebase Admin initialization warning: {e}. Ensure service account JSON or default credentials are set.")
+        warnings.warn(f"Firebase Admin initialization warning: {e}. Ensure service account JSON, environment variable, or project ID is set.")
 
 class MongoUser:
     def __init__(self, data):

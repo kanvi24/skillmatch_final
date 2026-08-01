@@ -8,8 +8,6 @@ from app.analytics.serializers import (
     ShortlistPredictionRequestSerializer,
     DeepLearningPredictionRequestSerializer,
 )
-from app.analytics import data_pipeline, visualization, regression_model, \
-    classification_model, deep_learning_model
 
 
 class EDASummaryView(APIView):
@@ -18,6 +16,7 @@ class EDASummaryView(APIView):
 
     @extend_schema(responses={200: dict})
     def get(self, request):
+        from app.analytics import data_pipeline
         try:
             return Response(data_pipeline.eda_summary(), status=status.HTTP_200_OK)
         except Exception as e:
@@ -30,6 +29,7 @@ class ChartsView(APIView):
 
     @extend_schema(responses={200: dict})
     def get(self, request):
+        from app.analytics import visualization
         try:
             return Response(visualization.all_charts(), status=status.HTTP_200_OK)
         except Exception as e:
@@ -47,6 +47,7 @@ class SalaryPredictionView(APIView):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         data = serializer.validated_data
         try:
+            from app.analytics import regression_model
             result = regression_model.predict_salary(
                 experience_years=data["experience_years"],
                 num_skills=data["num_skills"],
@@ -69,6 +70,7 @@ class ShortlistPredictionView(APIView):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         data = serializer.validated_data
         try:
+            from app.analytics import classification_model
             result = classification_model.predict_shortlist(
                 experience_years=data["experience_years"],
                 num_skills=data["num_skills"],
@@ -91,6 +93,7 @@ class DeepLearningPredictionView(APIView):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         data = serializer.validated_data
         try:
+            from app.analytics import deep_learning_model
             result = deep_learning_model.predict_salary_dl(
                 experience_years=data["experience_years"],
                 num_skills=data["num_skills"],

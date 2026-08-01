@@ -11,7 +11,15 @@ if (admin.apps.length === 0) {
     const localPath = path.join(__dirname, "..", "firebase-service-account.json");
     const parentPath = path.join(__dirname, "..", "..", "firebase-service-account.json");
     
-    if (fs.existsSync(localPath)) {
+    const projectId = process.env.FIREBASE_PROJECT_ID || process.env.GOOGLE_CLOUD_PROJECT;
+
+    if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
+      const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
+      admin.initializeApp({
+        credential: admin.credential.cert(serviceAccount)
+      });
+      logger.info("Firebase Admin initialized in node-service using credentials from FIREBASE_SERVICE_ACCOUNT_JSON environment variable.");
+    } else if (fs.existsSync(localPath)) {
       admin.initializeApp({
         credential: admin.credential.cert(localPath)
       });
@@ -21,6 +29,11 @@ if (admin.apps.length === 0) {
         credential: admin.credential.cert(parentPath)
       });
       logger.info("Firebase Admin initialized in node-service using credentials from project root.");
+    } else if (projectId) {
+      admin.initializeApp({
+        projectId: projectId
+      });
+      logger.info(`Firebase Admin initialized in node-service using project ID: ${projectId}`);
     } else {
       admin.initializeApp();
       logger.info("Firebase Admin initialized in node-service using default environment credentials.");
