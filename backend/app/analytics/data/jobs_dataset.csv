@@ -1,0 +1,401 @@
+job_id,job_title,category,location,experience_years,required_skills,num_skills,salary_lpa,shortlisted
+1,Full Stack Engineer,Full Stack,Ahmedabad,11.4,"Python, Django, SQL, Node.js",4,23.05,1
+2,DevOps Engineer,DevOps,Ahmedabad,7.4,"Django, Java, MongoDB",3,18.38,0
+3,Data Science Engineer,Data Science,Pune,11.6,"Docker, TensorFlow, Python",3,24.94,1
+4,Full Stack Engineer,Full Stack,Mumbai,3.7,"Python, React, TensorFlow, Docker, Express, Django, Pandas",7,15.37,1
+5,Full Stack Engineer,Full Stack,Ahmedabad,0.5,"Java, React, SQL, Python, Docker, Pandas",6,9.53,1
+6,Frontend Development Engineer,Frontend Development,Mumbai,2.4,"Java, AWS, TensorFlow, SQL",4,12.49,0
+7,Frontend Development Engineer,Frontend Development,Hyderabad,6.7,"TensorFlow, Node.js, Express, AWS",4,16.44,0
+8,Full Stack Engineer,Full Stack,Ahmedabad,6.8,"Python, TensorFlow, Express, Django, SQL",5,17.42,1
+9,Full Stack Engineer,Full Stack,Mumbai,9.6,"Django, React, TensorFlow, MongoDB, Express",5,20.67,1
+10,Frontend Development Engineer,Frontend Development,Bengaluru,5.0,"Express, Django, MongoDB, Node.js, Java, SQL",6,13.63,0
+11,Backend Development Engineer,Backend Development,Pune,8.5,"Pandas, React, Express, SQL, MongoDB, Node.js",6,20.96,1
+12,Backend Development Engineer,Backend Development,Pune,11.8,"Express, React, AWS, Django, Node.js",5,25.11,1
+13,Data Science Engineer,Data Science,Bengaluru,3.8,"Python, TensorFlow, SQL, MongoDB, AWS, Pandas, Express",7,15.36,1
+14,Backend Development Engineer,Backend Development,Hyderabad,10.1,"Python, MongoDB, Node.js, React",4,21.75,1
+15,Data Science Engineer,Data Science,Mumbai,2.9,"Express, Django, AWS, Node.js, SQL, React, TensorFlow",7,16.5,1
+16,Frontend Development Engineer,Frontend Development,Mumbai,11.2,"MongoDB, Django, AWS, Pandas, Express",5,25.36,1
+17,DevOps Engineer,DevOps,Remote,2.7,"SQL, Django",2,15.72,0
+18,DevOps Engineer,DevOps,Pune,5.8,"React, Java, SQL, TensorFlow",4,19.36,0
+19,Data Science Engineer,Data Science,Bengaluru,11.9,"Docker, Django, Node.js, AWS, Pandas, Python, TensorFlow",7,26.94,1
+20,Data Science Engineer,Data Science,Hyderabad,3.8,"Python, MongoDB, Node.js",3,16.46,0
+21,Data Science Engineer,Data Science,Remote,8.4,"SQL, Docker, Express, TensorFlow, Node.js, MongoDB",6,23.18,1
+22,Full Stack Engineer,Full Stack,Mumbai,10.6,"AWS, TensorFlow, Node.js, Express, MongoDB",5,23.81,1
+23,DevOps Engineer,DevOps,Remote,6.3,"TensorFlow, Django, Python, AWS, React, Express",6,16.63,0
+24,Backend Development Engineer,Backend Development,Hyderabad,0.9,"TensorFlow, React, SQL, Java, Django, Python",6,10.09,0
+25,Data Science Engineer,Data Science,Mumbai,7.9,"TensorFlow, Java, Express, Django, Node.js, React",6,22.34,1
+26,Full Stack Engineer,Full Stack,,0.2,"React, Express, AWS",3,8.77,0
+27,Backend Development Engineer,Backend Development,Remote,11.2,"Docker, SQL",2,24.74,0
+28,Data Science Engineer,Data Science,Mumbai,9.7,"SQL, Pandas, Java, Express",4,22.48,1
+29,DevOps Engineer,DevOps,Remote,10.1,"SQL, TensorFlow, Docker",3,23.0,1
+30,Full Stack Engineer,Full Stack,Ahmedabad,2.1,"MongoDB, SQL",2,,0
+31,Data Science Engineer,Data Science,Pune,2.9,"Django, Pandas, AWS, Docker, TensorFlow, React, MongoDB",7,15.16,1
+32,Full Stack Engineer,Full Stack,Ahmedabad,6.9,"Django, SQL, Python, TensorFlow, Pandas, AWS",6,19.36,1
+33,Frontend Development Engineer,Frontend Development,,1.4,"React, Java, Django, Node.js, TensorFlow",5,7.45,0
+34,DevOps Engineer,DevOps,Pune,4.4,"MongoDB, Docker, Django, Java, React",5,14.53,0
+35,Frontend Development Engineer,Frontend Development,Mumbai,3.0,"Docker, Django, Express",3,10.28,0
+36,Data Science Engineer,Data Science,Pune,10.4,"Pandas, Django, Python, Node.js, React, Express, Docker",7,24.61,1
+37,Data Science Engineer,Data Science,Mumbai,2.6,"AWS, Java",2,16.46,0
+38,Backend Development Engineer,Backend Development,Remote,2.3,"Docker, SQL, Pandas",3,8.92,0
+39,DevOps Engineer,DevOps,Pune,10.9,"TensorFlow, AWS, Express, Node.js, Java, Docker",6,26.34,1
+40,Data Science Engineer,Data Science,Remote,4.5,"Node.js, TensorFlow, Docker",3,16.06,1
+41,DevOps Engineer,DevOps,Remote,8.7,"Django, Node.js, Express",3,21.58,0
+42,Backend Development Engineer,Backend Development,Ahmedabad,4.3,"MongoDB, Pandas, Express",3,12.95,1
+43,DevOps Engineer,DevOps,Pune,7.4,"Python, Java, AWS",3,19.2,0
+44,Data Science Engineer,Data Science,Bengaluru,6.2,"Docker, Java, Express, SQL, Django",5,18.64,0
+45,Backend Development Engineer,Backend Development,Pune,7.4,"Django, SQL, Python",3,18.52,0
+46,DevOps Engineer,DevOps,Hyderabad,2.3,"Node.js, React, AWS, Pandas",4,12.03,0
+47,Frontend Development Engineer,Frontend Development,Mumbai,0.5,"Pandas, AWS",2,8.6,0
+48,Backend Development Engineer,Backend Development,Hyderabad,9.0,"Node.js, Django, Python, MongoDB, Java, SQL, Express",7,19.75,0
+49,Data Science Engineer,Data Science,Remote,8.8,"TensorFlow, React, MongoDB, Java, Node.js",5,19.17,1
+50,Data Science Engineer,Data Science,Remote,6.0,"Java, MongoDB, Pandas, Express, Docker",5,20.19,1
+51,Frontend Development Engineer,Frontend Development,Mumbai,11.8,"Docker, TensorFlow, React, Django, Node.js, Pandas",6,24.94,1
+52,Data Science Engineer,Data Science,Mumbai,5.9,"SQL, Pandas, Docker, Python, Node.js, MongoDB, Java",7,18.11,1
+53,Full Stack Engineer,Full Stack,Hyderabad,2.9,"TensorFlow, Docker",2,15.07,1
+54,Backend Development Engineer,Backend Development,Ahmedabad,3.9,"Java, Pandas, AWS",3,13.83,0
+55,Data Science Engineer,Data Science,Mumbai,2.5,"AWS, Express, Django, Pandas",4,13.19,1
+56,Frontend Development Engineer,Frontend Development,Bengaluru,8.0,"MongoDB, Java, TensorFlow",3,18.09,0
+57,Backend Development Engineer,Backend Development,Ahmedabad,6.5,"MongoDB, Python, Express, Node.js",4,19.61,0
+58,Frontend Development Engineer,Frontend Development,Hyderabad,9.5,"Java, React, TensorFlow, AWS, Django, Node.js, SQL",7,22.71,1
+59,Full Stack Engineer,Full Stack,Remote,5.5,"SQL, Python, Docker, Pandas, React",5,14.2,1
+60,DevOps Engineer,DevOps,Mumbai,9.9,"MongoDB, Python, Express, Node.js, React, Django, Pandas",7,23.27,1
+61,Full Stack Engineer,Full Stack,Bengaluru,7.1,"Express, SQL, React, Docker, Python",5,21.12,1
+62,Data Science Engineer,Data Science,Pune,11.1,"Express, Docker",2,21.69,1
+63,Data Science Engineer,Data Science,Hyderabad,8.9,"AWS, SQL, TensorFlow",3,19.44,0
+64,Frontend Development Engineer,Frontend Development,Ahmedabad,5.4,"Django, AWS, Pandas, Express",4,17.39,1
+65,Full Stack Engineer,Full Stack,Bengaluru,2.6,"MongoDB, Django",2,10.09,0
+66,Frontend Development Engineer,Frontend Development,Bengaluru,2.5,"Docker, Pandas, Node.js, MongoDB",4,12.72,0
+67,Full Stack Engineer,Full Stack,Hyderabad,2.2,"MongoDB, Docker, TensorFlow, Express, Python, Node.js",6,12.37,1
+68,Data Science Engineer,Data Science,,2.7,"AWS, Docker, Django, Pandas",4,15.98,1
+69,Full Stack Engineer,Full Stack,Remote,11.3,"TensorFlow, Node.js, SQL, React, Java, Python, Express",7,27.04,1
+70,Data Science Engineer,Data Science,Mumbai,9.8,"Express, Java, MongoDB, Python, SQL",5,25.16,1
+71,Frontend Development Engineer,Frontend Development,Bengaluru,11.4,"Node.js, MongoDB, Pandas, Express, Django, AWS, SQL",7,26.85,1
+72,Data Science Engineer,Data Science,Remote,1.7,"SQL, TensorFlow, Python, Java",4,11.67,0
+73,DevOps Engineer,DevOps,Ahmedabad,7.8,"Express, TensorFlow, Django",3,17.83,1
+74,DevOps Engineer,DevOps,Ahmedabad,10.1,"Pandas, Docker, Express, Node.js, MongoDB, TensorFlow",6,21.24,1
+75,Full Stack Engineer,Full Stack,Pune,8.6,"AWS, Node.js, React, Docker",4,19.42,1
+76,Frontend Development Engineer,Frontend Development,Hyderabad,7.2,"Docker, React, Node.js",3,15.36,0
+77,Backend Development Engineer,Backend Development,Hyderabad,9.6,"AWS, TensorFlow, Pandas, Python, Docker",5,21.81,1
+78,Full Stack Engineer,Full Stack,Pune,6.5,"React, Node.js, Java, Django",4,18.78,1
+79,DevOps Engineer,DevOps,Bengaluru,8.8,"Python, Java, MongoDB, Express",4,19.13,1
+80,Full Stack Engineer,Full Stack,Ahmedabad,1.4,"Java, Docker, Django",3,11.82,0
+81,Backend Development Engineer,Backend Development,Mumbai,10.5,"Node.js, Python, Java",3,23.68,0
+82,DevOps Engineer,DevOps,Pune,0.5,"React, SQL, Django, Python, MongoDB",5,7.86,0
+83,Backend Development Engineer,Backend Development,Ahmedabad,3.6,"Node.js, Django, React, Docker, TensorFlow, AWS, Pandas",7,15.96,0
+84,Frontend Development Engineer,Frontend Development,Hyderabad,10.8,"Docker, Django, Python",3,21.05,0
+85,Data Science Engineer,Data Science,Ahmedabad,2.2,"Node.js, Express, Django, React",4,13.62,0
+86,Backend Development Engineer,Backend Development,Pune,8.4,"Pandas, AWS, Java, Django",4,19.25,0
+87,Frontend Development Engineer,Frontend Development,Pune,11.5,"Python, Java, SQL, Node.js, Django",5,22.9,1
+88,DevOps Engineer,DevOps,Hyderabad,2.6,"Node.js, AWS, Express, React, Pandas, SQL",6,15.44,0
+89,Data Science Engineer,Data Science,Pune,10.5,"SQL, Docker, Java, Pandas",4,24.19,1
+90,Backend Development Engineer,Backend Development,Ahmedabad,1.5,"Python, TensorFlow, React, Express",4,10.84,0
+91,Data Science Engineer,Data Science,Remote,1.4,"Docker, MongoDB, Pandas",3,12.93,0
+92,DevOps Engineer,DevOps,Hyderabad,9.5,"React, TensorFlow, Pandas, MongoDB, Docker",5,25.38,0
+93,Full Stack Engineer,Full Stack,Remote,9.1,"TensorFlow, Java, Node.js, MongoDB, AWS, Pandas",6,19.56,1
+94,DevOps Engineer,DevOps,Ahmedabad,8.3,"Java, Express, MongoDB, TensorFlow, Pandas",5,18.95,1
+95,Data Science Engineer,Data Science,,5.3,"Pandas, TensorFlow, Express, Node.js",4,18.25,1
+96,Data Science Engineer,Data Science,Remote,10.4,"Java, SQL, AWS, Python, Express, MongoDB",6,24.79,1
+97,Data Science Engineer,Data Science,Pune,7.3,"TensorFlow, React, Django, Python, MongoDB",5,23.43,1
+98,Backend Development Engineer,Backend Development,Remote,5.8,"Django, MongoDB, TensorFlow, Node.js, Pandas, Java, React",7,20.94,1
+99,Full Stack Engineer,Full Stack,Hyderabad,4.2,"Node.js, React, AWS",3,15.54,1
+100,Backend Development Engineer,Backend Development,Mumbai,2.0,"MongoDB, AWS",2,11.18,0
+101,Frontend Development Engineer,Frontend Development,Mumbai,10.7,"TensorFlow, Docker, Express, MongoDB, Django",5,24.51,1
+102,Data Science Engineer,Data Science,Hyderabad,10.5,"Python, SQL, Django",3,21.88,1
+103,Data Science Engineer,Data Science,Hyderabad,5.9,"Java, MongoDB, Django, Express, Node.js",5,17.95,1
+104,Full Stack Engineer,Full Stack,Remote,8.8,"SQL, Docker, MongoDB, Pandas, AWS, Java, Express",7,19.29,1
+105,Frontend Development Engineer,Frontend Development,Hyderabad,3.4,"Express, SQL, Node.js, AWS, Docker, Python",6,13.31,0
+106,DevOps Engineer,DevOps,Remote,5.2,"AWS, Docker, MongoDB, React, Python, SQL, Django",7,18.77,0
+107,Data Science Engineer,Data Science,Bengaluru,9.3,"Express, Python, Node.js, Java, MongoDB",5,26.37,1
+108,Full Stack Engineer,Full Stack,Mumbai,8.5,"Django, Pandas, React, TensorFlow, SQL, Python, Docker",7,20.96,1
+109,Backend Development Engineer,Backend Development,Bengaluru,11.8,"Django, Docker",2,22.26,1
+110,Backend Development Engineer,Backend Development,Mumbai,4.8,"SQL, Node.js, Pandas",3,16.1,0
+111,Backend Development Engineer,Backend Development,Hyderabad,8.8,"AWS, Node.js, React",3,19.49,0
+112,Backend Development Engineer,Backend Development,Mumbai,7.4,"MongoDB, Django",2,19.87,0
+113,Backend Development Engineer,Backend Development,Bengaluru,4.2,"Java, React, Node.js",3,14.11,0
+114,Full Stack Engineer,Full Stack,Bengaluru,8.0,"AWS, SQL, Docker, Node.js, Python, TensorFlow, MongoDB",7,22.36,1
+115,Backend Development Engineer,Backend Development,Pune,4.8,"SQL, Pandas, MongoDB, Django, Node.js, Java",6,16.32,0
+116,Backend Development Engineer,Backend Development,Ahmedabad,5.6,"React, Pandas, Python, Express",4,18.05,0
+117,Full Stack Engineer,Full Stack,Pune,5.7,"Docker, AWS, Python, TensorFlow",4,14.68,1
+118,DevOps Engineer,DevOps,Remote,4.2,"SQL, Express, Python",3,14.8,1
+119,Full Stack Engineer,Full Stack,Pune,2.2,"React, Django, MongoDB, SQL, AWS, Java",6,16.58,1
+120,Backend Development Engineer,Backend Development,Pune,2.5,"Node.js, MongoDB, SQL",3,12.1,0
+121,Data Science Engineer,Data Science,Ahmedabad,1.1,"TensorFlow, SQL, Express, Node.js, React",5,14.27,1
+122,Frontend Development Engineer,Frontend Development,Bengaluru,2.8,"TensorFlow, Python, Node.js, SQL, Docker, AWS, MongoDB",7,13.29,1
+123,DevOps Engineer,DevOps,Remote,1.0,"Django, Docker, MongoDB, SQL, Pandas, AWS",6,12.05,0
+124,Backend Development Engineer,Backend Development,Hyderabad,8.2,"Express, Docker, Python, MongoDB, TensorFlow",5,16.73,0
+125,Full Stack Engineer,Full Stack,Mumbai,1.1,"SQL, Django, React, MongoDB, TensorFlow, Python",6,10.53,0
+126,DevOps Engineer,DevOps,Hyderabad,8.8,"Docker, React, Pandas, AWS, Java",5,,0
+127,Data Science Engineer,Data Science,Pune,1.1,"AWS, MongoDB, Docker, Pandas",4,12.58,1
+128,Full Stack Engineer,Full Stack,Pune,10.2,"Docker, Express, Node.js",3,20.96,1
+129,Data Science Engineer,Data Science,Hyderabad,3.9,"Express, Python, MongoDB, Pandas",4,15.63,1
+130,DevOps Engineer,DevOps,Ahmedabad,3.8,"Pandas, Docker, React, Python",4,15.3,0
+131,Full Stack Engineer,Full Stack,Hyderabad,3.7,"TensorFlow, Express, MongoDB, Python, AWS, React, Pandas",7,14.99,0
+132,Backend Development Engineer,Backend Development,Remote,0.7,"SQL, Django",2,6.41,0
+133,Full Stack Engineer,Full Stack,Mumbai,7.9,"Python, Docker, Express, TensorFlow, React, AWS, SQL",7,21.38,1
+134,DevOps Engineer,DevOps,Bengaluru,0.1,"TensorFlow, Python, React",3,10.73,0
+135,DevOps Engineer,DevOps,Hyderabad,11.7,"Django, TensorFlow, SQL",3,25.51,0
+136,Frontend Development Engineer,Frontend Development,Ahmedabad,4.5,"Node.js, React, Django, Docker, Java",5,14.34,0
+137,Full Stack Engineer,Full Stack,Ahmedabad,9.4,"MongoDB, AWS, Express, Node.js, Java",5,22.41,1
+138,Data Science Engineer,Data Science,Hyderabad,5.3,"SQL, Django, Node.js, Java, Docker, AWS",6,18.64,1
+139,Full Stack Engineer,Full Stack,Remote,9.3,"Python, Node.js, Docker, TensorFlow",4,21.45,1
+140,Data Science Engineer,Data Science,Hyderabad,11.7,"MongoDB, Express, Java",3,24.24,1
+141,Frontend Development Engineer,Frontend Development,Remote,11.8,"Java, Pandas, React, Node.js, SQL, Express, Docker",7,22.47,1
+142,Full Stack Engineer,Full Stack,Hyderabad,2.9,"SQL, Pandas, Express, Node.js, AWS, Django",6,11.81,1
+143,Full Stack Engineer,Full Stack,Remote,0.6,"TensorFlow, React, Python, AWS, Django, Pandas, MongoDB",7,10.29,1
+144,Frontend Development Engineer,Frontend Development,Remote,1.8,"Node.js, Django, Express, AWS, Pandas",5,12.27,0
+145,Backend Development Engineer,Backend Development,Ahmedabad,6.7,"TensorFlow, Docker",2,17.59,1
+146,Frontend Development Engineer,Frontend Development,Bengaluru,8.3,"MongoDB, React, Java, Python, AWS, Pandas",6,19.01,1
+147,Frontend Development Engineer,Frontend Development,Hyderabad,9.1,"Docker, Python, Java, Django, SQL, Express, AWS",7,18.5,0
+148,DevOps Engineer,DevOps,Ahmedabad,0.3,"Docker, SQL, React, Django, MongoDB, AWS, TensorFlow",7,13.5,1
+149,Full Stack Engineer,Full Stack,Mumbai,0.6,"Express, TensorFlow, Java",3,10.31,0
+150,Frontend Development Engineer,Frontend Development,Pune,5.3,"TensorFlow, MongoDB, SQL, React, Express",5,13.53,1
+151,Data Science Engineer,Data Science,Hyderabad,5.1,"React, Express, AWS, Java, TensorFlow",5,18.4,1
+152,DevOps Engineer,DevOps,Bengaluru,8.4,"TensorFlow, Pandas, Node.js, Python",4,21.56,0
+153,Full Stack Engineer,Full Stack,Remote,1.6,"MongoDB, Express, SQL, AWS, Docker",5,12.17,0
+154,Data Science Engineer,Data Science,Hyderabad,11.5,"Java, Python, MongoDB, Docker, Django, Node.js, Express",7,26.03,1
+155,Data Science Engineer,Data Science,Hyderabad,5.9,"TensorFlow, SQL, Pandas, React",4,18.8,1
+156,DevOps Engineer,DevOps,Pune,0.6,"Pandas, SQL, Node.js, Python, Java",5,10.9,0
+157,Data Science Engineer,Data Science,Hyderabad,2.2,"Java, React",2,14.18,0
+158,Data Science Engineer,Data Science,,6.5,"TensorFlow, React, Node.js, Pandas, AWS, Java, Docker",7,21.18,1
+159,Full Stack Engineer,Full Stack,Ahmedabad,4.3,"Docker, Express, Java, AWS",4,13.23,1
+160,Frontend Development Engineer,Frontend Development,Pune,11.4,"MongoDB, Pandas, Express",3,22.47,0
+161,Data Science Engineer,Data Science,Bengaluru,4.8,"Pandas, AWS, Docker, Python",4,17.99,1
+162,Backend Development Engineer,Backend Development,Remote,1.9,"Node.js, Python, TensorFlow, Java, Docker",5,10.65,0
+163,DevOps Engineer,DevOps,Bengaluru,8.8,"Pandas, Express, Java, Django",4,21.44,1
+164,DevOps Engineer,DevOps,Bengaluru,8.7,"Java, Django, Docker",3,19.76,1
+165,DevOps Engineer,DevOps,Remote,11.7,"MongoDB, Java, Pandas, Python, TensorFlow",5,22.03,1
+166,Backend Development Engineer,Backend Development,Pune,9.8,"Node.js, Pandas, Express, React, Docker",5,24.16,1
+167,Data Science Engineer,Data Science,Mumbai,5.2,"Pandas, Express, TensorFlow, AWS, SQL, Django, Docker",7,17.96,1
+168,Frontend Development Engineer,Frontend Development,Bengaluru,8.3,"Pandas, AWS",2,18.54,1
+169,Backend Development Engineer,Backend Development,Pune,7.8,"React, MongoDB, Express, Python, Node.js, AWS, SQL",7,19.14,1
+170,Backend Development Engineer,Backend Development,Mumbai,11.6,"TensorFlow, Pandas, SQL, MongoDB, Node.js, Python, Java",7,23.48,1
+171,Data Science Engineer,Data Science,Remote,3.4,"React, Django, AWS, Express, Pandas",5,16.62,0
+172,Frontend Development Engineer,Frontend Development,Ahmedabad,2.7,"Java, SQL, React, AWS, Pandas, MongoDB, Python",7,11.55,1
+173,Full Stack Engineer,Full Stack,Ahmedabad,7.0,"Java, SQL, Python, Pandas, React, Express, Node.js",7,,1
+174,Frontend Development Engineer,Frontend Development,Ahmedabad,10.0,"MongoDB, AWS",2,21.63,1
+175,DevOps Engineer,DevOps,Bengaluru,7.7,"MongoDB, Python, Pandas, Express, TensorFlow",5,,0
+176,Data Science Engineer,Data Science,Bengaluru,0.0,"Docker, Express, Pandas, MongoDB, Python, Django",6,10.56,1
+177,DevOps Engineer,DevOps,Ahmedabad,5.7,"Java, MongoDB",2,16.93,1
+178,Frontend Development Engineer,Frontend Development,Bengaluru,0.5,"Django, Pandas",2,7.35,0
+179,DevOps Engineer,DevOps,Remote,4.7,"Java, Pandas, Django, SQL, Python",5,15.39,0
+180,DevOps Engineer,DevOps,Remote,10.0,"MongoDB, React",2,23.18,0
+181,Full Stack Engineer,Full Stack,Mumbai,1.0,"Java, Python",2,10.28,0
+182,DevOps Engineer,DevOps,Ahmedabad,10.8,"AWS, Pandas, Docker, MongoDB, Java, Node.js, SQL",7,26.04,1
+183,Data Science Engineer,Data Science,Bengaluru,2.6,"Docker, Python",2,14.68,0
+184,Full Stack Engineer,Full Stack,Hyderabad,2.7,"SQL, Node.js, MongoDB, AWS",4,12.23,0
+185,Full Stack Engineer,Full Stack,Bengaluru,0.5,"TensorFlow, Java",2,10.4,1
+186,Backend Development Engineer,Backend Development,Remote,10.1,"Pandas, Express, AWS, Java, React",5,21.96,1
+187,Frontend Development Engineer,Frontend Development,Remote,4.7,"Java, TensorFlow, Node.js",3,14.36,0
+188,Full Stack Engineer,Full Stack,Ahmedabad,11.9,"Django, React",2,26.13,1
+189,Frontend Development Engineer,Frontend Development,Remote,10.1,"Docker, Express, Java, Pandas",4,22.17,0
+190,DevOps Engineer,DevOps,,5.3,"TensorFlow, MongoDB, SQL",3,15.05,0
+191,DevOps Engineer,DevOps,Pune,5.7,"TensorFlow, Pandas, Python, Express, Node.js",5,16.39,0
+192,Full Stack Engineer,Full Stack,Hyderabad,5.6,"TensorFlow, AWS, Pandas",3,20.86,0
+193,Frontend Development Engineer,Frontend Development,Remote,6.1,"TensorFlow, AWS",2,14.57,1
+194,Data Science Engineer,Data Science,Mumbai,0.7,"Django, Node.js, Express, MongoDB, Pandas, SQL",6,13.39,0
+195,Backend Development Engineer,Backend Development,Pune,5.7,"AWS, Python, Pandas, Node.js, MongoDB, Express",6,18.24,1
+196,Frontend Development Engineer,Frontend Development,Pune,8.9,"SQL, Django",2,17.22,0
+197,Data Science Engineer,Data Science,Ahmedabad,8.7,"Express, Pandas, Django, Python, MongoDB, Java, Docker",7,22.04,1
+198,Backend Development Engineer,Backend Development,Mumbai,9.5,"Python, MongoDB, SQL, React, AWS, Node.js, Express",7,,1
+199,DevOps Engineer,DevOps,Bengaluru,7.0,"SQL, Node.js",2,18.92,0
+200,Backend Development Engineer,Backend Development,Mumbai,7.0,"Python, Express, React, Pandas, MongoDB, TensorFlow, SQL",7,17.17,1
+201,Backend Development Engineer,Backend Development,Bengaluru,4.8,"Express, MongoDB, AWS, SQL, Node.js, Python, React",7,15.1,1
+202,Data Science Engineer,Data Science,Pune,0.8,"Django, AWS, Pandas",3,12.33,0
+203,Full Stack Engineer,Full Stack,Hyderabad,6.9,"Express, Pandas, Django",3,18.78,1
+204,Data Science Engineer,Data Science,Mumbai,8.4,"Django, Express, SQL",3,20.84,0
+205,Frontend Development Engineer,Frontend Development,Remote,7.7,"AWS, Express, Docker",3,17.54,0
+206,Full Stack Engineer,Full Stack,Hyderabad,10.2,"Django, Java",2,22.57,1
+207,Full Stack Engineer,Full Stack,Ahmedabad,8.9,"Django, Pandas, React, AWS, Docker",5,18.45,1
+208,DevOps Engineer,DevOps,Mumbai,8.3,"Java, AWS, Pandas, React, Express, Node.js",6,24.81,1
+209,DevOps Engineer,DevOps,Pune,5.6,"MongoDB, React, Django, Docker, Express",5,16.14,0
+210,Data Science Engineer,Data Science,Remote,1.4,"SQL, Docker, React, TensorFlow, AWS, Node.js, Django",7,15.16,1
+211,Frontend Development Engineer,Frontend Development,Bengaluru,0.3,"Django, Docker, AWS, Node.js",4,8.22,0
+212,DevOps Engineer,DevOps,Remote,9.0,"SQL, Express, React, Django, Docker",5,20.69,1
+213,Backend Development Engineer,Backend Development,Pune,2.3,"Python, Django, SQL",3,9.97,0
+214,Full Stack Engineer,Full Stack,Mumbai,4.0,"SQL, React, Pandas, Node.js, MongoDB, TensorFlow, Python",7,12.97,1
+215,Backend Development Engineer,Backend Development,Ahmedabad,2.9,"Python, React, Node.js, Java, Django, Pandas",6,16.6,0
+216,DevOps Engineer,DevOps,Remote,5.8,"TensorFlow, MongoDB, AWS, Express, SQL, Node.js",6,15.54,1
+217,Data Science Engineer,Data Science,Bengaluru,11.0,"Pandas, Docker, Python, Express, MongoDB, React, TensorFlow",7,26.14,1
+218,Backend Development Engineer,Backend Development,Ahmedabad,11.6,"SQL, MongoDB, Django, Java, Docker, Express",6,24.01,1
+219,Backend Development Engineer,Backend Development,Bengaluru,9.4,"Pandas, Docker, Python, SQL, React",5,22.55,1
+220,DevOps Engineer,DevOps,Remote,1.4,"Express, Node.js",2,10.49,0
+221,Backend Development Engineer,Backend Development,Remote,4.3,"React, AWS, TensorFlow",3,13.81,0
+222,Frontend Development Engineer,Frontend Development,Pune,9.0,"React, TensorFlow, Express, Node.js, Pandas, Java",6,17.2,1
+223,Full Stack Engineer,Full Stack,Hyderabad,9.1,"Python, SQL, TensorFlow, React",4,21.54,1
+224,Data Science Engineer,Data Science,Remote,3.5,"Django, Pandas, TensorFlow, AWS, SQL, Docker, Python",7,17.91,1
+225,Backend Development Engineer,Backend Development,Mumbai,9.9,"AWS, Docker, Django",3,24.7,1
+226,Full Stack Engineer,Full Stack,,6.3,"Python, Django, React, Node.js, Docker, MongoDB",6,19.75,1
+227,Full Stack Engineer,Full Stack,Mumbai,8.9,"Node.js, Express, SQL, Docker, TensorFlow, Java",6,19.4,1
+228,DevOps Engineer,DevOps,Bengaluru,6.5,"MongoDB, Node.js",2,17.96,0
+229,Data Science Engineer,Data Science,Pune,1.6,"MongoDB, Pandas, Django, TensorFlow, Java, AWS",6,13.07,1
+230,Backend Development Engineer,Backend Development,Bengaluru,8.7,"AWS, React, Pandas, SQL, Node.js, TensorFlow, Docker",7,22.7,1
+231,DevOps Engineer,DevOps,Pune,11.4,"MongoDB, SQL",2,23.53,1
+232,Full Stack Engineer,Full Stack,Mumbai,6.7,"Node.js, Django, Pandas, Docker, TensorFlow, MongoDB",6,19.24,1
+233,Data Science Engineer,Data Science,Pune,1.9,"Express, AWS, Docker, Node.js, MongoDB",5,11.45,1
+234,Full Stack Engineer,Full Stack,Mumbai,2.2,"React, TensorFlow, Django, Node.js, Pandas",5,11.27,0
+235,Backend Development Engineer,Backend Development,Mumbai,5.2,"Java, Express, React, AWS",4,16.37,0
+236,DevOps Engineer,DevOps,Mumbai,1.2,"React, Node.js, Java, Pandas, MongoDB, SQL",6,12.54,0
+237,Data Science Engineer,Data Science,Pune,8.9,"MongoDB, Docker, TensorFlow",3,20.39,1
+238,Backend Development Engineer,Backend Development,Pune,8.3,"Express, Django, AWS",3,17.04,1
+239,Backend Development Engineer,Backend Development,Hyderabad,8.4,"Pandas, Django, MongoDB, Node.js, React, Java, SQL",7,20.4,1
+240,Full Stack Engineer,Full Stack,Remote,8.4,"MongoDB, Django",2,20.36,1
+241,Data Science Engineer,Data Science,Ahmedabad,6.0,"Java, Docker, Pandas, TensorFlow",4,14.17,1
+242,Frontend Development Engineer,Frontend Development,Remote,7.1,"SQL, AWS",2,14.98,0
+243,Backend Development Engineer,Backend Development,Pune,0.8,"TensorFlow, Express, Node.js, MongoDB, Pandas, SQL",6,7.7,0
+244,Frontend Development Engineer,Frontend Development,Bengaluru,7.4,"Express, Node.js",2,17.7,0
+245,Data Science Engineer,Data Science,Remote,10.7,"Python, Docker",2,21.98,1
+246,Full Stack Engineer,Full Stack,Pune,5.0,"Java, Python, TensorFlow, Django, React, MongoDB, Pandas",7,19.42,1
+247,Data Science Engineer,Data Science,Remote,11.1,"TensorFlow, Docker, Node.js, SQL, Express, React",6,24.32,1
+248,Full Stack Engineer,Full Stack,Bengaluru,5.3,"Java, React, Django",3,16.65,1
+249,Data Science Engineer,Data Science,Remote,3.8,"Node.js, TensorFlow, Java, Django, MongoDB, Python",6,16.97,1
+250,Data Science Engineer,Data Science,Hyderabad,0.2,"AWS, React",2,10.62,0
+251,Data Science Engineer,Data Science,Mumbai,5.0,"SQL, MongoDB, Express",3,15.4,0
+252,Full Stack Engineer,Full Stack,Pune,6.9,"Node.js, TensorFlow, SQL, MongoDB",4,21.42,1
+253,DevOps Engineer,DevOps,Hyderabad,6.4,"Node.js, React, AWS, Express, SQL, Docker",6,14.69,1
+254,Data Science Engineer,Data Science,Bengaluru,7.3,"TensorFlow, SQL, Java, Pandas",4,21.69,1
+255,Data Science Engineer,Data Science,Ahmedabad,5.8,"AWS, Java, Node.js, TensorFlow",4,20.78,0
+256,Backend Development Engineer,Backend Development,Hyderabad,10.8,"Django, React, MongoDB",3,24.04,0
+257,Full Stack Engineer,Full Stack,Pune,12.0,"Python, Django, MongoDB, Pandas",4,24.43,1
+258,Backend Development Engineer,Backend Development,Hyderabad,7.9,"React, MongoDB",2,19.07,0
+259,Frontend Development Engineer,Frontend Development,Hyderabad,2.0,"Express, Docker",2,12.2,0
+260,Backend Development Engineer,Backend Development,Remote,3.7,"Pandas, Java, Node.js, Django, Express, MongoDB",6,15.62,1
+261,Data Science Engineer,Data Science,Pune,7.0,"MongoDB, TensorFlow, Node.js",3,17.17,1
+262,DevOps Engineer,DevOps,Mumbai,9.9,"Express, Python, React, TensorFlow, Java, MongoDB",6,24.27,1
+263,Full Stack Engineer,Full Stack,Mumbai,4.4,"Node.js, Django, Docker, Java, React",5,13.37,1
+264,Frontend Development Engineer,Frontend Development,Pune,6.2,"AWS, Java, Docker, Node.js, MongoDB, Python",6,17.6,1
+265,Backend Development Engineer,Backend Development,Remote,0.1,"Docker, Express, SQL, Django",4,6.93,0
+266,Backend Development Engineer,Backend Development,Remote,8.5,"Node.js, Python, TensorFlow, Django, SQL",5,22.7,0
+267,Frontend Development Engineer,Frontend Development,Hyderabad,6.9,"Docker, AWS, Python, SQL",4,18.25,1
+268,Full Stack Engineer,Full Stack,Bengaluru,11.3,"Express, TensorFlow, Python, Node.js, MongoDB, React, AWS",7,25.26,1
+269,Backend Development Engineer,Backend Development,Mumbai,6.7,"MongoDB, Express",2,17.29,1
+270,Frontend Development Engineer,Frontend Development,Mumbai,5.4,"Java, AWS, Python, Express, Pandas, MongoDB, Docker",7,14.85,1
+271,Frontend Development Engineer,Frontend Development,Mumbai,7.1,"Pandas, Express, React, MongoDB",4,15.13,1
+272,DevOps Engineer,DevOps,Bengaluru,11.7,"SQL, Docker, Python, Django",4,26.6,1
+273,Full Stack Engineer,Full Stack,Pune,4.2,"AWS, Node.js, MongoDB, Java, TensorFlow, Django",6,12.77,1
+274,Backend Development Engineer,Backend Development,Remote,0.9,"SQL, Python, Pandas, Django, AWS, Docker",6,12.62,0
+275,Full Stack Engineer,Full Stack,Remote,2.5,"MongoDB, Python, Java, React, Docker, AWS, Express",7,11.95,1
+276,Backend Development Engineer,Backend Development,Hyderabad,6.1,"Node.js, MongoDB, SQL, Docker, Java, Django, AWS",7,20.34,1
+277,Backend Development Engineer,Backend Development,Ahmedabad,8.0,"SQL, MongoDB",2,18.12,1
+278,Full Stack Engineer,Full Stack,Ahmedabad,8.2,"SQL, MongoDB, Docker, Python, AWS",5,22.75,1
+279,Full Stack Engineer,Full Stack,Remote,5.9,"Docker, AWS, Django, Python, Java, SQL, React",7,14.11,1
+280,DevOps Engineer,DevOps,Ahmedabad,6.9,"Django, MongoDB, Docker, Pandas, Python, Node.js, Java",7,20.55,0
+281,Data Science Engineer,Data Science,Remote,3.0,"React, TensorFlow, Python, Express, Django, Java",6,14.34,1
+282,Data Science Engineer,Data Science,Ahmedabad,6.7,"Node.js, Java, SQL, Express, Pandas, MongoDB",6,16.75,0
+283,Data Science Engineer,Data Science,Mumbai,8.4,"Java, Node.js, React",3,20.22,1
+284,Frontend Development Engineer,Frontend Development,Bengaluru,7.4,"React, Django",2,17.39,0
+285,Data Science Engineer,Data Science,Hyderabad,4.0,"MongoDB, Django, Pandas, Java, Node.js",5,,1
+286,Frontend Development Engineer,Frontend Development,Pune,7.8,"Node.js, React",2,19.24,0
+287,Frontend Development Engineer,Frontend Development,Mumbai,5.0,"Java, SQL",2,14.61,0
+288,DevOps Engineer,DevOps,Remote,10.6,"Pandas, React, Docker, Java, TensorFlow",5,22.15,0
+289,Frontend Development Engineer,Frontend Development,Remote,10.2,"Pandas, MongoDB, AWS",3,19.14,0
+290,DevOps Engineer,DevOps,Pune,5.4,"Java, Pandas, Express",3,15.25,0
+291,Frontend Development Engineer,Frontend Development,Bengaluru,0.7,"Python, SQL, React, AWS",4,11.02,0
+292,Frontend Development Engineer,Frontend Development,Hyderabad,4.1,"React, Pandas",2,,0
+293,Data Science Engineer,Data Science,Pune,2.0,"Docker, Java",2,15.26,1
+294,Frontend Development Engineer,Frontend Development,Ahmedabad,4.9,"Docker, Java, AWS",3,15.84,0
+295,Full Stack Engineer,Full Stack,Hyderabad,7.4,"React, Python, SQL, Django",4,15.86,1
+296,Full Stack Engineer,Full Stack,Hyderabad,0.3,"Express, Node.js",2,9.33,0
+297,Frontend Development Engineer,Frontend Development,Mumbai,4.2,"Pandas, Node.js, React, Django, MongoDB, TensorFlow, Express",7,16.06,0
+298,DevOps Engineer,DevOps,Hyderabad,4.6,"Node.js, Pandas",2,14.52,0
+299,Frontend Development Engineer,Frontend Development,Pune,7.9,"Django, Docker, AWS",3,18.54,0
+300,Backend Development Engineer,Backend Development,Mumbai,10.0,"TensorFlow, Express, SQL, Docker, AWS, MongoDB",6,21.83,1
+301,Full Stack Engineer,Full Stack,Remote,10.9,"Node.js, Docker, MongoDB, Express, Python",5,24.01,1
+302,Data Science Engineer,Data Science,Ahmedabad,3.4,"Python, Docker, React, Express, Node.js, Pandas, TensorFlow",7,16.6,1
+303,Backend Development Engineer,Backend Development,Remote,10.1,"Docker, Python, Java",3,19.65,0
+304,Frontend Development Engineer,Frontend Development,Pune,4.1,"Pandas, Django, MongoDB, Java, AWS, Express, Node.js",7,10.62,0
+305,Frontend Development Engineer,Frontend Development,Hyderabad,11.3,"Docker, TensorFlow, Java",3,20.63,1
+306,Data Science Engineer,Data Science,Bengaluru,0.6,"Java, Pandas, Python, Docker",4,12.12,0
+307,Full Stack Engineer,Full Stack,Remote,0.4,"Java, AWS, Node.js",3,7.57,0
+308,Backend Development Engineer,Backend Development,Mumbai,7.1,"Python, TensorFlow, Java, MongoDB, AWS, Docker",6,16.89,1
+309,DevOps Engineer,DevOps,Mumbai,3.8,"React, Pandas, Django, Python, Docker",5,10.58,0
+310,Frontend Development Engineer,Frontend Development,Remote,5.8,"SQL, Django, Pandas, Python, Java, Docker, Express",7,14.86,1
+311,Backend Development Engineer,Backend Development,Bengaluru,0.7,"Python, AWS, Java, TensorFlow, Docker",5,9.21,0
+312,Full Stack Engineer,Full Stack,Remote,8.1,"SQL, Pandas",2,18.26,1
+313,Backend Development Engineer,Backend Development,Remote,5.3,"SQL, Python, Django, Node.js, Pandas",5,19.06,0
+314,Data Science Engineer,Data Science,Hyderabad,6.0,"SQL, Express, Django, AWS, Node.js, Docker, Java",7,19.31,1
+315,Frontend Development Engineer,Frontend Development,Hyderabad,11.9,"Docker, Python",2,23.62,1
+316,Full Stack Engineer,Full Stack,Ahmedabad,1.8,"React, MongoDB, Express, Pandas",4,12.47,0
+317,Data Science Engineer,Data Science,Pune,7.5,"React, Pandas",2,18.28,1
+318,Backend Development Engineer,Backend Development,Pune,7.1,"MongoDB, Pandas, SQL, React, Node.js",5,16.31,1
+319,Frontend Development Engineer,Frontend Development,Hyderabad,7.6,"Python, React",2,15.08,0
+320,Full Stack Engineer,Full Stack,Ahmedabad,11.9,"SQL, AWS, React, Docker, Django, Pandas, Java",7,24.45,1
+321,Full Stack Engineer,Full Stack,Remote,3.9,"React, Django, Express, AWS",4,13.03,1
+322,Full Stack Engineer,Full Stack,Bengaluru,7.7,"Django, TensorFlow, Pandas, SQL",4,21.11,1
+323,Backend Development Engineer,Backend Development,Pune,7.3,"AWS, Django, SQL, MongoDB, React",5,20.09,1
+324,Frontend Development Engineer,Frontend Development,Pune,10.7,"React, SQL, TensorFlow, Pandas",4,23.53,0
+325,DevOps Engineer,DevOps,Pune,6.9,"TensorFlow, Python, MongoDB, Django, AWS",5,18.28,0
+326,DevOps Engineer,DevOps,Remote,9.6,"MongoDB, Python, AWS, SQL",4,23.09,1
+327,Frontend Development Engineer,Frontend Development,Remote,7.0,"Express, MongoDB, Python, TensorFlow, Node.js, Pandas, React",7,20.28,1
+328,Frontend Development Engineer,Frontend Development,Bengaluru,10.9,"Django, Java, Python, Node.js, Pandas",5,21.4,1
+329,Full Stack Engineer,Full Stack,Bengaluru,8.1,"Express, TensorFlow, React, Node.js",4,,1
+330,Frontend Development Engineer,Frontend Development,Pune,0.9,"Pandas, Express, Django, AWS, Docker, SQL, TensorFlow",7,8.91,1
+331,Full Stack Engineer,Full Stack,Ahmedabad,4.8,"Node.js, React",2,13.28,0
+332,Full Stack Engineer,Full Stack,Ahmedabad,2.0,"MongoDB, React",2,9.62,0
+333,Full Stack Engineer,Full Stack,Remote,1.0,"TensorFlow, Pandas, AWS, Java",4,9.46,0
+334,Backend Development Engineer,Backend Development,Hyderabad,7.6,"SQL, Java, Docker, React, Python, Express, TensorFlow",7,20.52,0
+335,Frontend Development Engineer,Frontend Development,Ahmedabad,6.2,"SQL, TensorFlow, Docker, Pandas, React, Node.js, Java",7,13.96,1
+336,Backend Development Engineer,Backend Development,Bengaluru,7.7,"TensorFlow, MongoDB, Python, Docker, Node.js, AWS",6,18.77,1
+337,Frontend Development Engineer,Frontend Development,Ahmedabad,9.9,"MongoDB, Express, React",3,20.85,1
+338,Full Stack Engineer,Full Stack,Pune,5.0,"Node.js, AWS, React, Docker",4,14.71,1
+339,DevOps Engineer,DevOps,Hyderabad,0.1,"Django, TensorFlow, Docker, Python",4,9.76,0
+340,DevOps Engineer,DevOps,Bengaluru,0.3,"Node.js, Java, AWS, Python, Django, SQL",6,,0
+341,Frontend Development Engineer,Frontend Development,Pune,7.1,"Pandas, React",2,17.69,1
+342,Data Science Engineer,Data Science,Mumbai,1.7,"Pandas, Java, SQL, MongoDB, Node.js, Python",6,13.69,1
+343,DevOps Engineer,DevOps,Ahmedabad,2.8,"Python, Docker",2,,0
+344,Frontend Development Engineer,Frontend Development,Remote,10.1,"Java, Node.js, MongoDB, Django, Docker, Pandas",6,20.37,1
+345,Full Stack Engineer,Full Stack,Mumbai,9.6,"Java, Node.js, SQL, TensorFlow, Docker, Express",6,22.63,1
+346,Frontend Development Engineer,Frontend Development,Pune,4.8,"React, AWS, Node.js, Express, Python, Java, Django",7,14.74,1
+347,DevOps Engineer,DevOps,Pune,7.1,"Docker, Python",2,19.84,0
+348,Full Stack Engineer,Full Stack,Ahmedabad,8.4,"Node.js, TensorFlow, SQL, React",4,20.26,1
+349,Backend Development Engineer,Backend Development,Ahmedabad,3.5,"Pandas, Python, TensorFlow",3,11.41,0
+350,Backend Development Engineer,Backend Development,Bengaluru,8.6,"SQL, Pandas, Docker, Django, Express",5,21.71,0
+351,Frontend Development Engineer,Frontend Development,Ahmedabad,7.3,"SQL, Docker, TensorFlow, MongoDB, Pandas, Node.js, Django",7,15.96,1
+352,Data Science Engineer,Data Science,Bengaluru,1.0,"SQL, Docker, Pandas",3,9.83,0
+353,Data Science Engineer,Data Science,Hyderabad,0.2,"React, TensorFlow, Java, Python",4,9.61,1
+354,Data Science Engineer,Data Science,Ahmedabad,10.6,"AWS, Pandas, Python, SQL, Node.js, TensorFlow, Django",7,26.75,1
+355,Full Stack Engineer,Full Stack,Ahmedabad,6.1,"React, Python, Node.js, Django, SQL, MongoDB, AWS",7,19.37,1
+356,Backend Development Engineer,Backend Development,Pune,3.9,"Python, TensorFlow",2,14.81,0
+357,Frontend Development Engineer,Frontend Development,,4.8,"SQL, Docker, Django, MongoDB, Java",5,14.05,0
+358,Frontend Development Engineer,Frontend Development,Ahmedabad,9.5,"MongoDB, Pandas, SQL, Python, Express, Docker, AWS",7,21.62,1
+359,Full Stack Engineer,Full Stack,Hyderabad,1.8,"TensorFlow, MongoDB, Node.js",3,11.02,0
+360,DevOps Engineer,DevOps,Mumbai,8.2,"Django, Pandas, Express, MongoDB, Python, AWS, SQL",7,22.29,1
+361,DevOps Engineer,DevOps,Bengaluru,0.6,"TensorFlow, AWS, Django, MongoDB",4,11.28,0
+362,Data Science Engineer,Data Science,Ahmedabad,3.7,"Python, Docker",2,13.44,0
+363,Backend Development Engineer,Backend Development,Ahmedabad,4.9,"Express, Docker, AWS, Python, MongoDB, React, TensorFlow",7,16.81,1
+364,Full Stack Engineer,Full Stack,Pune,6.3,"AWS, React, Node.js, Docker, Python, TensorFlow",6,17.82,1
+365,Data Science Engineer,Data Science,Bengaluru,7.1,"Pandas, TensorFlow, Python, Java, Express, Django",6,20.93,1
+366,Data Science Engineer,Data Science,Pune,11.9,"AWS, Docker, SQL, Pandas, Django, TensorFlow",6,25.8,1
+367,Frontend Development Engineer,Frontend Development,Pune,0.8,"SQL, Express, React",3,10.42,0
+368,Data Science Engineer,Data Science,Ahmedabad,9.0,"Node.js, React, AWS, Java, TensorFlow",5,24.14,1
+369,Data Science Engineer,Data Science,Hyderabad,10.3,"Python, Express, MongoDB, TensorFlow, SQL, Docker, Pandas",7,25.53,1
+370,Full Stack Engineer,Full Stack,Bengaluru,10.4,"Python, Django, Pandas, Java, Node.js, SQL",6,21.41,1
+371,Data Science Engineer,Data Science,Hyderabad,3.5,"MongoDB, AWS, Java, Express",4,13.57,0
+372,Data Science Engineer,Data Science,Remote,10.1,"AWS, MongoDB, Docker, SQL, Express, Django, Node.js",7,24.79,1
+373,DevOps Engineer,DevOps,Remote,10.3,"Pandas, AWS, Java, MongoDB, Express",5,,1
+374,Backend Development Engineer,Backend Development,Bengaluru,4.5,"Java, Docker, SQL, Express, Node.js",5,13.36,0
+375,DevOps Engineer,DevOps,Remote,4.8,"Docker, AWS, TensorFlow, React",4,15.24,0
+376,Data Science Engineer,Data Science,Pune,8.5,"Node.js, Docker, React",3,20.68,1
+377,Data Science Engineer,Data Science,Hyderabad,6.4,"React, TensorFlow, Docker, Java",4,19.37,0
+378,Full Stack Engineer,Full Stack,Mumbai,6.6,"MongoDB, SQL, Docker, Node.js, Express",5,17.35,1
+379,Frontend Development Engineer,Frontend Development,Bengaluru,9.6,"TensorFlow, MongoDB, React",3,17.59,1
+380,Data Science Engineer,Data Science,Bengaluru,1.0,"Express, React, SQL, Node.js, Pandas, Django, AWS",7,11.93,1
+381,Backend Development Engineer,Backend Development,Remote,11.6,"Node.js, React, SQL",3,22.91,1
+382,Data Science Engineer,Data Science,Pune,10.7,"Docker, SQL, MongoDB, Python, AWS, React",6,23.01,1
+383,Frontend Development Engineer,Frontend Development,Bengaluru,1.0,"SQL, Node.js, Pandas",3,7.6,0
+384,Frontend Development Engineer,Frontend Development,Mumbai,5.2,"Java, Django, Python",3,13.41,0
+385,Backend Development Engineer,Backend Development,Hyderabad,7.0,"Docker, Python, AWS, MongoDB, TensorFlow",5,17.99,0
+386,Frontend Development Engineer,Frontend Development,Mumbai,11.6,"SQL, React, Pandas, MongoDB, Express, TensorFlow",6,21.93,1
+387,Full Stack Engineer,Full Stack,Pune,5.1,"TensorFlow, MongoDB, React",3,18.19,1
+388,Full Stack Engineer,Full Stack,Pune,5.0,"MongoDB, Python, Express, TensorFlow",4,15.96,0
+389,Frontend Development Engineer,Frontend Development,Ahmedabad,4.1,"Node.js, Express, Python, Django",4,16.21,0
+390,DevOps Engineer,DevOps,Mumbai,3.4,"Python, Pandas, Node.js",3,12.2,0
+391,Backend Development Engineer,Backend Development,Ahmedabad,0.6,"SQL, Express, MongoDB",3,9.5,0
+392,DevOps Engineer,DevOps,Remote,1.5,"Docker, Node.js, Java, Pandas, Express",5,16.68,0
+393,Frontend Development Engineer,Frontend Development,Mumbai,1.6,"Pandas, React, SQL, Python, Express",5,11.21,0
+394,Full Stack Engineer,Full Stack,Hyderabad,4.2,"Java, React, AWS, Node.js, MongoDB",5,17.43,1
+395,Frontend Development Engineer,Frontend Development,Remote,1.0,"AWS, Node.js, Java, Django, React, Python",6,8.63,0
+396,Data Science Engineer,Data Science,Bengaluru,9.2,"TensorFlow, Docker, Java",3,21.44,1
+397,Data Science Engineer,Data Science,Remote,4.7,"Docker, Node.js, Python, TensorFlow, MongoDB",5,18.17,1
+398,DevOps Engineer,DevOps,Hyderabad,8.4,"Express, Node.js, Python, TensorFlow, Pandas",5,20.89,0
+399,Data Science Engineer,Data Science,Remote,6.6,"Python, MongoDB, Express",3,,1
+400,Full Stack Engineer,Full Stack,Ahmedabad,1.0,"Django, MongoDB, React, Python, Express, SQL",6,12.32,1
