@@ -85,7 +85,6 @@ export default function BaseLayout() {
         {isAuthenticated && sidebarOpen && (
           <div
             className="fixed inset-0 bg-black/40 z-30 md:hidden backdrop-blur-sm transition-all duration-300 ease-in-out"
-            onClick={() => setSidebarOpen(false)}
           />
         )}
 
@@ -100,7 +99,7 @@ export default function BaseLayout() {
           >
             {/* Sidebar Header: Logo / App Name */}
             <div className="h-16 flex items-center justify-between px-6 border-b border-blue-500/10 dark:border-blue-500/5">
-              <Link to="/" className="flex items-center space-x-2" onClick={() => setSidebarOpen(false)}>
+              <Link to="/" className="flex items-center space-x-2">
                 <span className="text-xl font-bold text-gray-900 dark:text-white tracking-tight font-heading">
                   SkillMatch
                 </span>
@@ -138,8 +137,6 @@ export default function BaseLayout() {
                       if (item.path === '#') {
                         e.preventDefault();
                         toast.info(`${item.name} feature coming soon!`);
-                      } else {
-                        setSidebarOpen(false);
                       }
                     }}
                     className={({ isActive }) => {

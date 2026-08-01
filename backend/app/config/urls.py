@@ -1,7 +1,12 @@
 from django.urls import path, include
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+from app.config.views import health_check
 
 urlpatterns = [
+    # Health check route
+    path("health/", health_check, name="health_check"),
+    path("api/health/", health_check, name="health_check_api"),
+
     # OpenAPI Schema and Swagger docs
     path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
     path("docs/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui"),
@@ -12,3 +17,4 @@ urlpatterns = [
     path("companies/", include("app.company.urls")),
     path("analytics/", include("app.analytics.urls")),
 ]
+
