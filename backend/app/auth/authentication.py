@@ -22,10 +22,27 @@ if not firebase_admin._apps:
         
         if firebase_json:
             import json
-            service_account_info = json.loads(firebase_json)
+            # Robust JSON cleaning: strip outer quotes and unescape double-escaped sequences
+            cleaned_json = firebase_json.strip()
+            if (cleaned_json.startswith('"') and cleaned_json.endswith('"')) or (cleaned_json.startswith("'") and cleaned_json.endswith("'")):
+                cleaned_json = cleaned_json[1:-1]
+            
+            # Replace literal escaped characters if they were double-escaped
+            cleaned_json = cleaned_json.replace('\\"', '"').replace('\\n', '\n')
+            
+            try:
+                service_account_info = json.loads(cleaned_json)
+            except Exception as parse_err:
+                print(f"DEBUG Firebase Init: First JSON parse failed ({parse_err}). Retrying raw...")
+                service_account_info = json.loads(firebase_json)
+                
+            if isinstance(service_account_info, str):
+                print("DEBUG Firebase Init: Decoded to string (double-escaped). Parsing again...")
+                service_account_info = json.loads(service_account_info)
+                
             cred = credentials.Certificate(service_account_info)
             firebase_admin.initialize_app(cred)
-            print("DEBUG Firebase Init: Initialized with FIREBASE_SERVICE_ACCOUNT_JSON")
+            print("DEBUG Firebase Init: Initialized successfully with FIREBASE_SERVICE_ACCOUNT_JSON")
         elif google_creds and os.path.exists(google_creds):
             cred = credentials.Certificate(google_creds)
             firebase_admin.initialize_app(cred)
