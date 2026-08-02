@@ -12,12 +12,16 @@ if not firebase_admin._apps:
         service_account_path = os.path.join(base_dir, "firebase-service-account.json")
         
         firebase_json = os.environ.get("FIREBASE_SERVICE_ACCOUNT_JSON")
+        google_creds = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
         project_id = os.environ.get("FIREBASE_PROJECT_ID") or os.environ.get("GOOGLE_CLOUD_PROJECT")
         
         if firebase_json:
             import json
             service_account_info = json.loads(firebase_json)
             cred = credentials.Certificate(service_account_info)
+            firebase_admin.initialize_app(cred)
+        elif google_creds and os.path.exists(google_creds):
+            cred = credentials.Certificate(google_creds)
             firebase_admin.initialize_app(cred)
         elif os.path.exists(service_account_path):
             cred = credentials.Certificate(service_account_path)
