@@ -15,25 +15,36 @@ if not firebase_admin._apps:
         google_creds = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
         project_id = os.environ.get("FIREBASE_PROJECT_ID") or os.environ.get("GOOGLE_CLOUD_PROJECT")
         
+        print(f"DEBUG Firebase Init: firebase_json_length={len(firebase_json) if firebase_json else 0}")
+        print(f"DEBUG Firebase Init: google_creds='{google_creds}', exists={os.path.exists(google_creds) if google_creds else False}")
+        print(f"DEBUG Firebase Init: service_account_path='{service_account_path}', exists={os.path.exists(service_account_path)}")
+        print(f"DEBUG Firebase Init: project_id='{project_id}'")
+        
         if firebase_json:
             import json
             service_account_info = json.loads(firebase_json)
             cred = credentials.Certificate(service_account_info)
             firebase_admin.initialize_app(cred)
+            print("DEBUG Firebase Init: Initialized with FIREBASE_SERVICE_ACCOUNT_JSON")
         elif google_creds and os.path.exists(google_creds):
             cred = credentials.Certificate(google_creds)
             firebase_admin.initialize_app(cred)
+            print(f"DEBUG Firebase Init: Initialized with GOOGLE_APPLICATION_CREDENTIALS file: {google_creds}")
         elif os.path.exists(service_account_path):
             cred = credentials.Certificate(service_account_path)
             firebase_admin.initialize_app(cred)
+            print("DEBUG Firebase Init: Initialized with service account file path")
         elif project_id:
             firebase_admin.initialize_app(options={
                 "projectId": project_id
             })
+            print("DEBUG Firebase Init: Initialized with project ID options")
         else:
             # Fallback to default credentials/env variables
             firebase_admin.initialize_app()
+            print("DEBUG Firebase Init: Initialized with default credentials fallback")
     except Exception as e:
+        print(f"ERROR Firebase Init: Failed to initialize Firebase Admin SDK: {e}")
         import warnings
         warnings.warn(f"Firebase Admin initialization warning: {e}. Ensure service account JSON, environment variable, or project ID is set.")
 
