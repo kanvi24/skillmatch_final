@@ -22,23 +22,29 @@ if not firebase_admin._apps:
         
         if firebase_json:
             import json
-            # Robust JSON cleaning: strip outer quotes and unescape double-escaped sequences
-            cleaned_json = firebase_json.strip()
-            if (cleaned_json.startswith('"') and cleaned_json.endswith('"')) or (cleaned_json.startswith("'") and cleaned_json.endswith("'")):
-                cleaned_json = cleaned_json[1:-1]
+            raw_json = firebase_json.strip()
+            service_account_info = None
             
-            # Replace literal escaped characters if they were double-escaped
-            cleaned_json = cleaned_json.replace('\\"', '"').replace('\\n', '\n')
-            
+            # Strategy 1: Direct JSON parsing
             try:
-                service_account_info = json.loads(cleaned_json)
-            except Exception as parse_err:
-                print(f"DEBUG Firebase Init: First JSON parse failed ({parse_err}). Retrying raw...")
-                service_account_info = json.loads(firebase_json)
+                data = json.loads(raw_json)
+                if isinstance(data, dict):
+                    service_account_info = data
+                elif isinstance(data, str):
+                    # If it loaded successfully but returned a string (double-encoded), load it again
+                    service_account_info = json.loads(data)
+            except Exception as e:
+                print(f"DEBUG Firebase Init: Direct parse failed ({e}). Trying Strategy 2...")
                 
-            if isinstance(service_account_info, str):
-                print("DEBUG Firebase Init: Decoded to string (double-escaped). Parsing again...")
-                service_account_info = json.loads(service_account_info)
+            # Strategy 2: If Strategy 1 failed, check if it's a quoted string and unescape it using unicode_escape
+            if not service_account_info:
+                cleaned = raw_json
+                if (cleaned.startswith('"') and cleaned.endswith('"')) or (cleaned.startswith("'") and cleaned.endswith("'")):
+                    cleaned = cleaned[1:-1]
+                
+                # Unescape standard python string literal backslash escapes
+                unescaped = cleaned.encode('utf-8').decode('unicode_escape')
+                service_account_info = json.loads(unescaped)
                 
             cred = credentials.Certificate(service_account_info)
             firebase_admin.initialize_app(cred)
