@@ -22,7 +22,9 @@ class JobScraperService:
                     args=[
                         "--disable-blink-features=AutomationControlled",
                         "--no-sandbox",
-                        "--disable-setuid-sandbox"
+                        "--disable-setuid-sandbox",
+                        "--disable-dev-shm-usage",  # Crucial for Docker containers
+                        "--disable-gpu"             # Reduces memory usage
                     ]
                 )
                 
